@@ -3,7 +3,7 @@ entries:
   strimzi-kafka-operator:
   - apiVersion: v2
     appVersion: 0.26.0
-    created: "2021-10-27T23:34:43.702608-04:00"
+    created: "2021-11-10T20:29:32.114441-05:00"
     description: 'Strimzi: Apache Kafka running on Kubernetes'
     digest: fb06c392d162015bc46dafaf5cc601d7a1a28d032d4137ba232ea319e457d128
     home: https://strimzi.io/
@@ -29,4 +29,29 @@ entries:
     urls:
     - https://cliffordt3.github.io/helm-charts/strimzi-kafka-operator-helm-3-chart-0.26.0.tgz
     version: 0.26.0
-generated: "2021-10-27T23:34:43.696886-04:00"
+  velero:
+  - apiVersion: v2
+    appVersion: 1.7.0
+    created: "2021-11-10T20:29:32.116659-05:00"
+    description: A Helm chart for velero
+    digest: 1a605dc9a9acfb6ab050c10feb17faaaa9172c9ea625b502794dd19c85126222
+    home: https://github.com/vmware-tanzu/velero
+    icon: https://cdn-images-1.medium.com/max/1600/1*-9mb3AKnKdcL_QD3CMnthQ.png
+    maintainers:
+    - email: jenting.hsiao@suse.com
+      name: jenting
+    - email: sseago@redhat.com
+      name: sseago
+    - email: jiangd@vmware.com
+      name: reasonerjt
+    - email: yinw@vmware.com
+      name: ywk253100
+    - email: bmcerlean@vmware.com
+      name: zubron
+    name: velero
+    sources:
+    - https://github.com/vmware-tanzu/velero
+    urls:
+    - https://cliffordt3.github.io/helm-charts/velero-2.26.3.tgz
+    version: 2.26.3
+generated: "2021-11-10T20:29:32.105016-05:00"
